@@ -87,14 +87,13 @@ The mean per-node velocity error stays low through the first ~150 steps and grow
 
 ```
 meshgraphnet-cfd-surrogate/
-├── meshgraphnet_cylinder_flow.py   # Self-contained training + evaluation script
-├── notebook/
-│   └── cylinder_flow_meshnet.ipynb # Full Kaggle notebook with outputs
-├── results/
-│   └── mgn_result.png              # Rollout vs ground truth + error curve
+├── .gitignore
+├── LICENSE
 ├── README.md
-├── requirements.txt
-└── LICENSE
+├── cylinder_flow_meshnet.ipynb     # Full Kaggle notebook with outputs
+├── meshgraphnet_cylinder_flow.py   # Self-contained training + evaluation script
+├── mgn_results.png                 # Rollout vs ground truth + error curve
+└── requirements.txt
 ```
 
 ---
